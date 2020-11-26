@@ -134,6 +134,9 @@ def test_for_loop_with_enumerate_start():
         начальное значение индексов при помощи переменной start
     """
 
+
     list1 = ['Python']
     for index, element in enumerate(list1, start=1):
         assert index == 1, element == 'Python'
+
+
